@@ -32,11 +32,11 @@
 
 # ── Name of your Slurm job script ──────────────────────────
 # Change this if your job script has a different name
-JOB_SCRIPT="run.sh"
+JOB_SCRIPT="job.sh"
 
 # ── Name of the environment variable your job script reads ─
-# run.sh checks this variable to know which input file to use.
-# Change this to match whatever variable name you use in run.sh
+# job.sh checks this variable to know which input file to use.
+# Change this to match whatever variable name you use in job.sh
 INPUT_FILE_VAR="INPUT_FILE_STAGE"
 
 # ============================================================
